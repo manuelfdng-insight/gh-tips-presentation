@@ -55,7 +55,7 @@
 3. When starting a greenfield project, provide clear architecture guidance (e.g., DDD, Vertical Slice Architecture, Clean Code Uncle Bob Style)
 4. Lint and format aggressively using pre-commit
 5. CMD+I and CMD+K,CMD+W are your friends
-6. Use the # feature to point to specific files. Also add relevant tools to the task in context for Agent Mode.
+6. Use the # feature to point to specific files. You can also use #codebase which is the same as @workspace. Also add relevant tools to the task in context for Agent Mode.
 7. Set up the web search tool with Tavily and also use the #fetch function for precise fetching of documentation
 8. Use the auto-create commit message functionality to generate started commit messages
 9. Steer the agent as needed
