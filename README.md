@@ -66,4 +66,5 @@
 14. Stay current with podcasts (e.g., OpenAI, Anthropic, Google Developer, Lex Fridman, Lenny's Podcast)
 15. Use screenshots to create UI code. Make sure to specify your CSS and JS stack.
 16. Ask the agent to double check that the docs and comments it made are actually aligned to the codebase
+17. Refine prompts using github.com/copilot
 
