@@ -50,25 +50,46 @@
 
 ## Copilot Tips
 
+### Core Principles
+
 1. **Always double-check** AI suggestions. Especially bash commands.
 2. Iterate on `.github/copilot-instructions.md` and other system prompts (https://code.visualstudio.com/docs/copilot/copilot-customization)
 3. When starting a greenfield project, provide clear architecture guidance (e.g., DDD, Vertical Slice Architecture, Clean Code Uncle Bob Style)
 4. Lint and format aggressively using pre-commit
+
+### Essential Shortcuts & Features
+
 5. CMD+I and CMD+K,CMD+W are your friends
 6. Use the # feature to point to specific files. You can also use #codebase which is the same as @workspace. Also add relevant tools to the task in context for Agent Mode.
-7. Set up the web search tool with Tavily and also use the #fetch function for precise fetching of documentation
-8. Use the auto-create commit message functionality to generate started commit messages
-9. Steer the agent as needed
-10. Remove unnecessary tools from agent mode to avoid confusing the agent. Watch out for auto-injected prompts by Copilot extensions.
-11. Use only `uv run python -c ...` and `bash` commands for testing and validation of each feature
-12. Use gitingest and a long-context LLM to get guidance on high-level state and potential future directions
-13. Pay attention to usage limits
-14. Stay current with podcasts (e.g., OpenAI, Anthropic, Google Developer, Lex Fridman, Lenny's Podcast)
-15. Use screenshots to create UI code. Make sure to specify your CSS and JS stack.
-16. Ask the agent to double check that the docs and comments it made are actually aligned to the codebase
-17. Refine prompts using github.com/copilot
+7. Use the auto-create commit message functionality to generate started commit messages
 
-# General LLM Code Gen Tips
+### Tools & Extensions
+
+8. Set up the web search tool with Tavily and also use the #fetch function for precise fetching of documentation
+9. Remove unnecessary tools from agent mode to avoid confusing the agent. Watch out for auto-injected prompts by Copilot extensions.
+
+### Agent Management
+
+10. Steer the agent as needed
+11. Use only `uv run python -c ...` and `bash` commands for testing and validation of each feature
+12. Refine prompts using github.com/copilot
+13. Ask the agent to double check that the docs and comments it made are actually aligned to the codebase
+
+### High-Level Strategy
+
+14. Use gitingest and a long-context LLM to get guidance on high-level state and potential future directions
+15. Pay attention to usage limits
+
+### UI Development
+
+16. Use screenshots to create UI code. Make sure to specify your CSS and JS stack.
+
+### Staying Current
+
+17. Stay current with podcasts (e.g., OpenAI, Anthropic, Google Developer, Lex Fridman, Lenny's Podcast)
+
+## General LLM Code Gen Tips
+
 - Use well-documented, highly used in public repo tech stacks (e.g. Flask, Django, FastAPI, React, Vue, Angular, Alpine)
 - If one LLM can't do it, try another one
 - Keep the context as clean as possible. Only keep what you need in there to avoid confusing the model.
