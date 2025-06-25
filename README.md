@@ -68,3 +68,7 @@
 16. Ask the agent to double check that the docs and comments it made are actually aligned to the codebase
 17. Refine prompts using github.com/copilot
 
+# General LLM Code Gen Tips
+- Use well-documented, highly used in public repo tech stacks (e.g. Flask, Django, FastAPI, React, Vue, Angular, Alpine)
+- If one LLM can't do it, try another one
+- Keep the context as clean as possible. Only keep what you need in there to avoid confusing the model.
