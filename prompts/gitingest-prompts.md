@@ -55,6 +55,3 @@
 | **README.md generation** | Generate a README.md file for this code that includes an overview of the application, describing its purpose and functionality, along with a description of the key files and their roles within the project. Do not include contributing guidelines or license information. |
 | **Generate CONTRIBUTING.md** | Generate a CONTRIBUTING.md file with guidelines on how to contribute to this codebase (branch naming, PR process, code style, etc.). |
 | **Environment Setup Instructions** | Create a step-by-step guide for setting up the development environment from scratch. |
-
-
-
