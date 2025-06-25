@@ -13,4 +13,4 @@ Set up all **#file:Insight_Ingenious** features in the top-level directory by in
     - Configuration notes
     - Code modifications
     - Troubleshooting steps
-- Temporarily mock all external services. Use the web search tool to verify the accuracy of your mocks.
+- Temporarily mock all external services using FastAPI. Use the web search tool to verify the accuracy of your mocks.
