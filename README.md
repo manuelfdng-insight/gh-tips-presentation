@@ -59,7 +59,7 @@
 7. Set up the web search tool with Tavily and also use the #fetch function for precise fetching of documentation
 8. Use the auto-create commit message functionality to generate started commit messages
 9. Steer the agent as needed
-10. Remove unnecessary tools from agent mode to avoid confusing the agent
+10. Remove unnecessary tools from agent mode to avoid confusing the agent. Watch out for auto-injected prompts by Copilot extensions.
 11. Use only `uv run python -c ...` and `bash` commands for testing and validation of each feature
 12. Use gitingest and a long-context LLM to get guidance on high-level state and potential future directions
 13. Pay attention to usage limits
