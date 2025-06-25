@@ -55,8 +55,8 @@
 3. When starting a greenfield project, provide clear architecture guidance (e.g., DDD, Vertical Slice Architecture, Clean Code Uncle Bob Style)
 4. Lint and format aggressively using pre-commit
 5. CMD+I and CMD+K,CMD+W are your friends
-6. Use the # feature to point to specific files
-7. Use the #fetch function for precise fetching of documentation
+6. Use the # feature to point to specific files. Also add relevant tools to the task in context for Agent Mode.
+7. Set up the web search tool with Tavily and also use the #fetch function for precise fetching of documentation
 8. Use the auto-create commit message functionality to generate started commit messages
 9. Steer the agent as needed
 10. Remove unnecessary tools from agent mode to avoid confusing the agent
@@ -64,4 +64,6 @@
 12. Use gitingest and a long-context LLM to get guidance on high-level state and potential future directions
 13. Pay attention to usage limits
 14. Stay current with podcasts (e.g., OpenAI, Anthropic, Google Developer, Lex Fridman, Lenny's Podcast)
+15. Use screenshots to create UI code. Make sure to specify your CSS and JS stack.
+16. Ask the agent to double check that the docs and comments it made are actually aligned to the codebase
 
