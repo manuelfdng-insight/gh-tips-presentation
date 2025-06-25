@@ -1,5 +1,7 @@
 # GitHub Copilot Tips Presentation
 
+![GitHub Copilot](copilot.png)
+
 ## Prerequisites
 
 - Python 3.13+
